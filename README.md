@@ -2,7 +2,8 @@
 
 I'm Jinny K
 
-I've just started learning language.
+I've just started learning code for web development.
+I'm trying to concentrate to Vanilla JS.
 
 
 
