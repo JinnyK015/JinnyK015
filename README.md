@@ -6,9 +6,7 @@ I'm looking for opportunities as a front end developor.**<br>
 
 ---
 
-## what I want to learn and am interested in? (July.2021)
-
-- small Vanilla JS project(calculator, canvas, slider, form to mail)
+## what I want to learn and am interested in? (Aug.2021)
 - Youtube clone coding (learn NodeJS, ES6, Express, Babel)
 - Mini game using only Vanilla JS, SCSS
 - read more about core JavaScript
