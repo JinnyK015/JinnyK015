@@ -6,32 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jinny's Techlog</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/54b0b8045c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <main>
+      <!-- nav bar -->
+      <nav id="navbar">
+        <div class="nav__log">
+          <img id="nav__img" src="/img/pic_line.png" alt="profile_picture" />
+          <h3 class="nav__head">Kia ora! Hello!</h3>
+        </div>
 
-    <!-- nav bar -->
-    <nav id ="navbar">
-      <div class="nav__log">
-        <img id ="nav__img" src="/img/pic_line.png" alt="profile_picture">
-      </div>
-      <ul class="nav__list">
-        <li class="nav__item">Main</li>
-        <li class="nav__item">Profile</li>
-        <li class="nav__item">Techlog</li>
-        <li class="nav__item">Reflections</li>
-      </ul>
-      
-    </nav>
+        <ul class="nav__menu">
+          <a href="index.html"
+            ><li class="nav__item"><i class="fas fa-home"></i>Main</li></a
+          >
+          <a href="#"
+            ><li class="nav__item"><i class="fas fa-id-card"></i>Profile</li></a
+          >
+          <a href="#"
+            ><li class="nav__item"><i class="fas fa-vial"></i>Techlog</li></a
+          >
+          <a href="/blog/template.html"
+            ><li class="nav__item">
+              <i class="fas fa-file-alt"></i>Reflections
+            </li></a
+          >
+          <a href="#"
+            ><li class="nav__item"><i class="fas fa-link"></i>Portfolio</li></a
+          >
+        </ul>
 
-    <!-- main screen -->
-    <section id ="main" class ="section">
-      <div class="home__img">
-        <img src="/img/main_pic.png" alt="greeting_pic" srcset="">
-      </div>
-      <h1 class="home__greet">Kia ora Taiao! Hello world!</h1>
-    </section>
+        <ul class="nav__sns">
+          <li class="nav__sns--item"><a href="#">github</a></li>
+          <li class="nav__sns--item"><a href="#">twitter</a></li>
+          <li class="nav__sns--item"><a href="#">linkedin</a></li>
+        </ul>
+      </nav>
 
-
-
+      <!-- main screen -->
+      <section id="mainscreen" class="section">
+        <div class="home__img">
+          <img src="/img/main_pic.png" alt="greeting_pic" srcset="" />
+        </div>
+        <h1 class="home__greet">Kia ora Taiao! Hello world!</h1>
+      </section>
+    </main>
   </body>
 </html>
