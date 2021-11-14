@@ -1,1 +1,46 @@
-@import "/style.css";
+.blog__nav {
+  display: flex;
+  align-items: center;
+  height: 10%;
+}
+
+.blog__nav--list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 20px;
+  font-size: var(--font-medium);
+}
+
+.blog__nav--list .blog__nav--item {
+  margin-right: 24px;
+}
+
+.blog__nav--item a:hover {
+  color: var(--color-red);
+}
+
+.blog__screen {
+  display: block;
+  margin: 12px;
+  padding: 20px;
+  background-color: #faebd7;
+}
+
+.blog__main .blog__screen .blog__post {
+  font-size: var(--font-lrg);
+  font-weight: var(--weight-bold);
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.blog__main .blog__screen .blog__post .blog__post--summary {
+  font-weight: var(--weight-normal);
+  font-size: var(--font-medium);
+}
+
+.blog__main .blog__screen .blog__post:hover {
+  color: var(--color-red);
+  background-color: var(--color-shadow);
+}

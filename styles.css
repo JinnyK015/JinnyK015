@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,800;0,900;1,700;1,900&display=swap");
+@import "/styles/main.css";
 
 * {
   box-sizing: border-box;
@@ -13,9 +14,12 @@
   --color-yellow: #ffa318;
   --color-lightyellow: #ffdcaf;
   --color-red: #ff6347;
+  --color-beigewhite: #faebd7;
   --color-white: #fff;
   --color-darkgrey: #2b2b2b;
+  --color-shadow: rgba(0, 0, 0, 0.1);
 
+  --font-huge: 38px;
   --font-Xlrg: 32px;
   --font-lrg: 28px;
   --font-medium: 24px;
@@ -56,11 +60,21 @@ main {
   font-size: var(--font-lrg);
 }
 
+#navbar .nav__link .fas {
+  margin-right: 10px;
+}
+
+#navbar .nav__link:hover {
+  color: var(--color-white);
+  background-color: var(--color-shadow);
+}
+
 #nav__img {
   width: 200px;
 }
 
 #navbar .nav__menu {
+  position: relative;
   width: 100%;
   padding-left: 10px;
   margin-top: 20px;
@@ -71,16 +85,13 @@ main {
   padding: 10px;
   font-size: var(--font-medium);
   font-weight: var(--weight-bold);
-}
-
-#navbar .nav__menu .nav__item a:active {
-  cursor: pointer;
+  border-radius: 10px;
 }
 
 #navbar .nav__menu .nav__item:hover {
   cursor: pointer;
   color: var(--color-white);
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--color-shadow);
 }
 
 #navbar .nav__menu .nav__item i {
@@ -95,9 +106,21 @@ main {
   transform: translateX(-50%);
 }
 
+#navbar .nav__sns--item {
+  font-size: var(--font-huge);
+  padding: 10px 14px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+#navbar .nav__sns--item:hover {
+  color: var(--color-white);
+  background-color: var(--color-shadow);
+}
+
 /* main screen */
 .section {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   margin-left: 300px;
   background-color: var(--color-lightyellow);
@@ -108,7 +131,6 @@ main {
   align-items: center;
   justify-content: center;
 }
-
 .home__img img {
   max-width: 500px;
 }
