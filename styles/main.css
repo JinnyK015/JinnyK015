@@ -1,12 +1,31 @@
+main .blog__main {
+  height: 100%;
+}
+
 .blog__nav {
   display: flex;
   align-items: center;
-  height: 10%;
+  background-color: var(--color-lightyellow);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+}
+
+.blog__nav .blog__nav--mainbox {
+  display: flex;
+  font-size: var(--font-medium);
+  margin-left: 20px;
+  padding-right: 20px;
+  border-right: 6px var(--color-lightshadow) double;
+}
+
+.blog__nav .blog__nav--main .fas {
+  margin-right: 10px;
 }
 
 .blog__nav--list {
-  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: end;
   margin: 20px;
@@ -14,20 +33,27 @@
 }
 
 .blog__nav--list .blog__nav--item {
-  margin-right: 24px;
+  margin-right: 12px;
+  padding-right: 12px;
+  border-right: 2px var(--color-lightshadow) solid;
 }
 
+.blog__nav .blog__nav--main:hover,
 .blog__nav--item a:hover {
   color: var(--color-red);
 }
 
+/* blog screen (contents.. etc) */
 .blog__screen {
   display: block;
   margin: 12px;
-  padding: 20px;
-  background-color: #faebd7;
+  padding: 5px 20px;
+  margin-top: 100px;
+  color: var(--color-darkgrey);
+  background-color: var(--color-lightshadow);
 }
 
+/* blog list screen */
 .blog__main .blog__screen .blog__post {
   font-size: var(--font-lrg);
   font-weight: var(--weight-bold);
@@ -38,9 +64,37 @@
 .blog__main .blog__screen .blog__post .blog__post--summary {
   font-weight: var(--weight-normal);
   font-size: var(--font-medium);
+  margin-top: 5px;
 }
 
 .blog__main .blog__screen .blog__post:hover {
   color: var(--color-red);
-  background-color: var(--color-shadow);
+  background-color: var(--color-lightshadow);
+}
+
+/* blog screen contents */
+.blog__screen__text {
+}
+
+.blog__screen .blog__title {
+  font-size: var(--font-Xlrg);
+  font-weight: var(--weight-chunky);
+  margin: 20px 0 10px 0;
+}
+
+.blog__screen .blog__contents {
+  max-width: 85%;
+}
+
+.blog__contents .blog__section {
+  padding: 50px;
+}
+
+.blog__contents .blog__question {
+  font-weight: var(--weight-bold);
+}
+
+.blog__contents .blog__answer {
+  margin-top: 30px;
+  font-size: var(--font-small);
 }
