@@ -60,32 +60,99 @@
       <section class="section blog__main">
         <!-- blog nav -->
         <nav class="blog__nav">
-            <a class="blog__nav--main" href="/blog/blog.html">
-              <div class="blog__nav--mainbox">
-                <i class="fas fa-vial"></i>
-                <span>Techlog</span>
-              </div>
-            </a>
-            <ul class="blog__nav--list">
-              <li class="blog__nav--item">
-                <a href="template.html">Template</a>
-              </li>
-              <li class="blog__nav--item">
-                <a href="identity-values.html">Identity-values</a>
-              </li>
-              <li class="blog__nav--item">
-                <a href="html-css.html">Html&CSS</a>
-              </li>
-              <li class="blog__nav--item">
-                <a href="learning-plan.html">Learning-plan</a>
-              </li>
-            </ul>
-          </nav>
-
+          <a class="blog__nav--main" href="/blog/blog.html">
+            <div class="blog__nav--mainbox">
+              <i class="fas fa-vial"></i>
+              <span>Techlog</span>
+            </div>
+          </a>
+          <ul class="blog__nav--list">
+            <li class="blog__nav--item">
+              <a href="template.html">Template</a>
+            </li>
+            <li class="blog__nav--item">
+              <a href="identity-values.html">Identity-values</a>
+            </li>
+            <li class="blog__nav--item">
+              <a href="html-css.html">Html&CSS</a>
+            </li>
+            <li class="blog__nav--item">
+              <a href="learning-plan.html">Learning-plan</a>
+            </li>
+          </ul>
+        </nav>
 
         <!-- blog list -->
         <div class="blog__screen">
-        
+          <div class="blog__contents">
+            <h3 class="blog__title">
+              What does it mean to display inline vs inline blocks?
+            </h3>
+            <div class="blog__section">
+              <h2 class="blog__question">Introduce</h2>
+              <p class="blog__answer">
+                What is inline-block? before we talk about inline-block. we have
+                to check what is inline and block.
+              </p>
+
+              <h2 class="blog__question">display : inline</h2>
+              <p class="blog__answer">
+                Displays an element as an inline element.(span, a, img, label
+                etc) You can see that the width and height are not respected. if
+                you using padding it's overlap over the lines above and
+                under.<br />
+                <br />
+                <b>Example</b><br />
+
+                <img src="/img/sample/inline.PNG" alt="inline_code_img" />
+              </p>
+
+              <h2 class="blog__question">display : block</h2>
+              <p class="blog__answer">
+                Here everything is respected, but the elements don’t sit side by
+                side.
+                <br />
+                <br />
+                <b>Example</b><br />
+                <img src="/img/sample/block.PNG" alt="inline_code_img" />
+              </p>
+
+              <h2 class="blog__question">display : inline-block</h2>
+              <p class="blog__answer">
+                Here the width, height are respected(and padding as well), but
+                the two copies of the element can still sit side by side.
+                <br />
+                <br />
+                <b>Example</b><br />
+                <img src="/img/sample/inline-block.PNG" alt="inline_code_img" />
+              </p>
+
+              <h2 class="blog__question">Reference</h2>
+              <p class="blog__answer">
+                <a
+                  class="reference"
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+                  target="_blank"
+                  >MDN : CSS - Dispaly</a
+                >
+                <a
+                  class="reference"
+                  href="https://css-tricks.com/when-do-you-use-inline-block/"
+                  target="_blank"
+                >
+                  Css-trick : When do you use inline-block?
+                </a>
+
+                <a
+                  class="reference"
+                  href="https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block"
+                  target="_blank"
+                >
+                  Digitalocean- Tutorial : Inline vs Inline-Block Display in CSS
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>

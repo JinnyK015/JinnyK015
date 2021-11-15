@@ -5,7 +5,7 @@ main .blog__main {
 .blog__nav {
   display: flex;
   align-items: center;
-  background-color: var(--color-lightyellow);
+  background-color: var(--color-dryrose);
   height: 100px;
   width: 100%;
   position: fixed;
@@ -38,6 +38,7 @@ main .blog__main {
   border-right: 2px var(--color-lightshadow) solid;
 }
 
+.blog__answer a:hover,
 .blog__nav .blog__nav--main:hover,
 .blog__nav--item a:hover {
   color: var(--color-red);
@@ -54,47 +55,53 @@ main .blog__main {
 }
 
 /* blog list screen */
-.blog__main .blog__screen .blog__post {
+.blog__screen .blog__post {
   font-size: var(--font-lrg);
   font-weight: var(--weight-bold);
   margin: 10px 0;
   padding: 10px;
 }
 
-.blog__main .blog__screen .blog__post .blog__post--summary {
+.blog__screen .blog__post .blog__post--summary {
   font-weight: var(--weight-normal);
   font-size: var(--font-medium);
   margin-top: 5px;
 }
 
-.blog__main .blog__screen .blog__post:hover {
-  color: var(--color-red);
-  background-color: var(--color-lightshadow);
+.blog__screen .blog__post:hover {
+  color: var(--color-purple);
+  background-color: var(--color-lightyellow);
 }
 
 /* blog screen contents */
-.blog__screen__text {
-}
 
 .blog__screen .blog__title {
   font-size: var(--font-Xlrg);
   font-weight: var(--weight-chunky);
-  margin: 20px 0 10px 0;
+  margin: 50px 0 50px 20px;
 }
 
-.blog__screen .blog__contents {
+.blog__contents {
   max-width: 85%;
+  line-height: 1.5;
 }
 
-.blog__contents .blog__section {
-  padding: 50px;
+.blog__section {
+  padding: 40px 40px 20px 40px;
 }
 
-.blog__contents .blog__question {
+.blog__question {
   font-weight: var(--weight-bold);
 }
 
-.blog__contents .blog__answer {
-  margin-top: 30px;
+.blog__answer {
+  margin: 30px 0;
   font-size: var(--font-small);
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.reference {
+  display: block;
+  margin-bottom: 5px;
 }

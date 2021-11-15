@@ -135,7 +135,7 @@ main {
   width: 100vw;
   height: 100vh;
   margin-left: 300px;
-  background-color: var(--color-lightyellow);
+
 }
 #mainscreen {
   display: flex;
