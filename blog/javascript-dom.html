@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jinny's Devlog</title>
     <script src="https://kit.fontawesome.com/54b0b8045c.js" crossorigin="anonymous"></script>
-    <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <link href="../styles.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -102,49 +102,76 @@
         </nav>
 
         <!-- blog list -->
-        <ul class="blog__screen">
-          <a href="template.html">
-            <li class="blog__post">
-              Template
-              <p class="blog__post--summary">The Story of Te Houtaewa. E kore e mau i a koe, he wae kai pakiaka.</p>
-            </li>
-          </a>
+        <div class="blog__screen">
+          <h1 class="blog__title">JS Fundamentals</h1>
+          <div class="blog__contents">
+            <div class="blog__section">
+              <h2 class="blog__question">An analogy to describe the differences between HTML and CSS</h2>
+              <p class="blog__answer">
+                HTML is a skeleton and CSS is an outfit. when you are sculpting you must build a skeleton like a
+                foundation HTML is that you need markup this part is head, body, and foot etc. after then you can put
+                muscle, skin and other things onto it. like color, font size, font, image etc. without HTML (skeleton)
+                you can't make CSS (outfit) and if I didn't well-organized HTML (skeleton) when I put CSS(outfit) it
+                would be quite annoying.
+              </p>
+            </div>
 
-          <a href="identity-values.html">
-            <li class="blog__post">
-              Identity-values
-              <p class="blog__post--summary">Describe personal values, ethics, strengths and limitations.</p>
-            </li>
-          </a>
+            <div class="blog__section">
+              <h2 class="blog__question">
+                Explain control flow and loops using an example process from everyday life, for example 'waking up' or
+                'brushing your teeth'.
+              </h2>
+              <p class="blog__answer">
+                Take out slice of bread until there are 2. Put the bread in the toaster and pressed button down, if
+                bread is not brown enough press button again. If bread is brown, spread butter until all the surface is
+                buttered. Done.
+              </p>
+            </div>
 
-          <a href="html-css.html">
-            <li class="blog__post">
-              Html & CSS: display values.
-              <p class="blog__post--summary">What does it mean to display inline vs inline blocks?</p>
-            </li>
-          </a>
+            <div class="blog__section">
+              <h2 class="blog__question">Describe what the DOM is and an example of how you might interact with it.</h2>
+              <p class="blog__answer">
+                Document Object Model (DOM) is the data representation of the objects that comprise the structure and
+                content of a document on the web. So simply it’s brings other document’s information to another
+                document.
+              </p>
+            </div>
 
-          <a href="learning-plan.html">
-            <li class="blog__post">
-              Learning-plan
-              <p class="blog__post--summary">Formulate Learning Plan :D</p>
-            </li>
-          </a>
+            <div class="blog__section">
+              <h2 class="blog__question">Explain the difference between accessing data from arrays and objects.</h2>
+              <p class="blog__answer">
+                Array is a collection of data. It is the simple data using its index number. it’s sequence data
+                structure. 0 to n. You can access a value by using the index number. Objects is It stores multiple
+                values in a single variable(properties) You can access a value by using the right variable.
+              </p>
 
-          <a href="emotional-intelligence.html">
-            <li class="blog__post">
-              EQ & IQ
-              <p class="blog__post--summary">What is EQ, and why we need EQ</p>
-            </li>
-          </a>
+              <a
+                class="reference"
+                href="https://www.mygreatlearning.com/blog/what-is-an-array-learn-more-in-one-read/"
+                target="_blank"
+              >
+                Referance :: Array data structure
+              </a>
 
-          <a href="javascript-dom.html">
-            <li class="blog__post">
-              JS Fundamentals
-              <p class="blog__post--summary">DOM and data structure</p>
-            </li>
-          </a>
-        </ul>
+              <a
+                class="reference"
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+                target="_blank"
+              >
+                Referance :: JS data structure
+              </a>
+            </div>
+
+            <div class="blog__section">
+              <h2 class="blog__question">Explain what functions are and why they are useful.</h2>
+              <p class="blog__answer">
+                When we need to perform an action quite often or we need a similar action in many places of the script
+                If you make that as a function, you can use that code(function) to be called many times without
+                repetition.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
