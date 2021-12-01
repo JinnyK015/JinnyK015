@@ -7,8 +7,8 @@ I'm looking for opportunities as a front end developor.**<br>
 ---
 
 ## what I want to learn and am interested in? 
-- Finshed the DevAcademy foundation sprint -- 45% <br>
-- Youtube clone coding (learn NodeJS, ES6, Express, Babel) -- 7%
+- Finshed the DevAcademy foundation sprint -- 90% <br>
+- Youtube clone coding (learn NodeJS, ES6, Express, Babel) -- 15%
 
 ---
 
