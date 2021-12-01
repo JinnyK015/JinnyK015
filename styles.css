@@ -50,11 +50,7 @@ main {
   display: flex;
   flex-direction: column;
   background-color: var(--color-navy);
-  background: linear-gradient(
-    0deg,
-    rgba(109, 89, 122, 1) 62%,
-    rgba(53, 80, 112, 1) 100%
-  );
+  background: linear-gradient(0deg, rgba(109, 89, 122, 1) 62%, rgba(53, 80, 112, 1) 100%);
   width: 300px;
   height: 100%;
   color: var(--color-white);
@@ -199,7 +195,7 @@ main {
 
 .profile__block {
   margin: 20px;
-  width: 50%;
+  width: 40%;
 }
 
 .profile__main .profile__block:first-child {
@@ -223,7 +219,63 @@ main {
 }
 
 .profile__img {
-  max-width: 400px;
+  max-width: 80%;
   border-radius: 40px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#no-mobile {
+  display: none;
+}
+
+/* ---------media qurey----------- */
+
+@media screen and (max-width: 1200px) {
+  .blog__nav {
+    display: none;
+  }
+
+  .blog__screen {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #no-mobile {
+    position: fixed;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-navy);
+    background: linear-gradient(0deg, rgba(109, 89, 122, 1) 62%, rgba(53, 80, 112, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+    overflow: hidden;
+  }
+
+  #no-mobile > span {
+    font-weight: var(--weight-bold);
+    font-size: var(--font-small);
+    color: var(--color-white);
+    margin: 0 14%;
+  }
+  #no-mobile > span > .fas {
+    margin-bottom: 20px;
+    animation: spincogAni 5s ease-in-out infinite;
+  }
+
+  @keyframes spincogAni {
+    from {
+      transform: none;
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  
 }
