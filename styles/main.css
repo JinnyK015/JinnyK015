@@ -6,11 +6,7 @@ main .blog__main {
   display: flex;
   align-items: center;
   background-color: var(--color-dryrose);
-  background: linear-gradient(
-    270deg,
-    rgba(109, 89, 122, 1) 42%,
-    rgba(53, 80, 112, 1) 100%
-  );
+  background: linear-gradient(270deg, rgba(109, 89, 122, 1) 42%, rgba(53, 80, 112, 1) 100%);
   height: 100px;
   width: 100%;
   position: fixed;
@@ -37,15 +33,16 @@ main .blog__main {
   font-size: var(--font-medium);
 }
 
-.blog__nav--list .blog__nav--item {
+.blog__nav--list > li {
   margin-right: 12px;
   padding-right: 12px;
+  font-size: var(--font-small);
   border-right: 2px var(--color-lightshadow) solid;
 }
 
 .blog__answer a:hover,
 .blog__nav .blog__nav--main:hover,
-.blog__nav--item a:hover {
+.blog__nav--list > li a:hover {
   color: var(--color-red);
 }
 
