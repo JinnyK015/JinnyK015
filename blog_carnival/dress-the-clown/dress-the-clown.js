@@ -11,14 +11,14 @@ let currentChoice = 0;
 
 function changeClownHead() {
   const head = document.querySelector(".head");
-  let headSrc = `./images/head${headIndex}.png`;
+  let headSrc = `../JinnyK015/blog_carnival/images/head${headIndex}.png`;
   
   if (headIndex >= 6) {
     headIndex = 0;
     head.src = headSrc;
   } else if (headIndex <= 0) {
     headIndex = 6;
-    head.src =`./images/head${headIndex}.png`; //function inside var, it's not working so I changed origin src
+    head.src =`../JinnyK015/blog_carnival/images/head${headIndex}.png`; //function inside var, it's not working so I changed origin src
   } else {
     head.src = headSrc;
   }
@@ -26,14 +26,14 @@ function changeClownHead() {
 
 function changeClownBody() {
   const body = document.querySelector(".body");
-  let bodySrc = `./images/body${bodyIndex}.png`;
+  let bodySrc = `../JinnyK015/blog_carnival/images/body${bodyIndex}.png`;
 
   if (bodyIndex >= 6) {
     bodyIndex = 0;
     body.src = bodySrc;
   } else if (bodyIndex <= 0) {
     bodyIndex = 6;
-    body.src = `./images/body${bodyIndex}.png`;
+    body.src = `../JinnyK015/blog_carnival/images/body${bodyIndex}.png`;
   } else {
     body.src = bodySrc;
   }
@@ -41,7 +41,7 @@ function changeClownBody() {
 
 function changeClownshoes() {
   const shoes = document.querySelector(".shoes");
-  let shoesSrc = `./images/shoes${shoesIndex}.png`;
+  let shoesSrc = `../JinnyK015/blog_carnival/images/shoes${shoesIndex}.png`;
 
   if (shoesIndex >= 6) {
     console.log(shoesIndex)
@@ -50,7 +50,7 @@ function changeClownshoes() {
     
   } else if (shoesIndex <= 0) {
     shoesIndex = 6;
-    shoes.src = `./images/shoes${shoesIndex}.png`;
+    shoes.src = `../JinnyK015/blog_carnival/images/shoes${shoesIndex}.png`;
   } else {
     shoes.src = shoesSrc;
   }

@@ -30,10 +30,10 @@ container.addEventListener("click", (e) => {
   if(num[e.target.id] >= 4){
     alert(`Unicorn Number #${e.target.id} says thank you!🦄`);
     num[e.target.id] = 0;
-    e.target.src =`javascript-carnival/inflate-the-unicorn/images/unicorn-${num[e.target.id]}.png`;
+    e.target.src =`../JinnyK015/blog_carnival/inflate-the-unicorn/images/unicorn-${num[e.target.id]}.png`;
   } else {
     
-    e.target.src =`javascript-carnival/inflate-the-unicorn/images/unicorn-${num[e.target.id]}.png`;
+    e.target.src =`../JinnyK015/blog_carnival/inflate-the-unicorn/images/unicorn-${num[e.target.id]}.png`;
     num[e.target.id]++
   }
 })

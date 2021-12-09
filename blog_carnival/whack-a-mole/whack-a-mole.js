@@ -33,7 +33,7 @@ function getRandomInt(min, max) {
 
 function putInTheMole () {
   const mole = document.createElement('img');
-  mole.src= "/javascript-carnival/whack-a-mole/mole.png";
+  mole.src= "../JinnyK015/blog_carnival/whack-a-mole/mole.png";
   mole.id = "mole";
   mole.style.width = '75px';
   randomBox.appendChild(mole);
@@ -56,7 +56,7 @@ function printMoleCounter (){
   }
 
 let audio = new Audio();
-audio.src = "/javascript-carnival/whack-a-mole/whack-audio.wav";
+audio.src = "../JinnyK015/blog-carnival/whack-a-mole/whack-audio.wav";
 
 
 putInTheMole();
