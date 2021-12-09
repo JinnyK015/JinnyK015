@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;600;800&display=swap");
 @import "styles/main.css";
+@import "/minesweeper/minesweeper.css";
+@import "/javascript-carnival/main.css";
 
 * {
   box-sizing: border-box;
@@ -59,7 +61,7 @@ main {
 #navbar .nav__log {
   flex-direction: column;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: var(--font-medium);
 }
 
@@ -89,7 +91,6 @@ main {
   position: relative;
   width: 100%;
   padding-left: 10px;
-  margin-top: 20px;
 }
 
 #navbar .nav__menu .nav__item {
@@ -224,6 +225,35 @@ main {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
+/* -------------game screen---------------- */
+
+#gamescreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 100px;
+}
+
+.game_nav {
+  position: fixed;
+  top: 10px;
+}
+.game_link {
+  font-size: var(--font-medium);
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+.game_link :hover {
+  color: var(--color-red);
+}
+
+.dress-a-parent > .fas {
+  color: tomato;
+}
+
+/* for media qurey */
+
 #no-mobile {
   display: none;
 }
@@ -276,6 +306,4 @@ main {
       transform: rotateZ(360deg);
     }
   }
-
-  
 }
