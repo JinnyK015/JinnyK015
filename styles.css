@@ -244,7 +244,7 @@ main {
   text-transform: capitalize;
   margin: 0 10px;
 }
-.game_link :hover {
+.game_link:hover {
   color: var(--color-red);
 }
 
