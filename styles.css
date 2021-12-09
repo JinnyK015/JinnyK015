@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;600;800&display=swap");
 @import "styles/main.css";
 @import "blog_minesweeper/minesweeper.css";
-@import "javascript-carnival/main.css";
+@import "blog_carnival/main.css";
 
 * {
   box-sizing: border-box;
