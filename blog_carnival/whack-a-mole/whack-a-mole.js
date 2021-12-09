@@ -56,7 +56,7 @@ function printMoleCounter (){
   }
 
 let audio = new Audio();
-audio.src = "../JinnyK015/blog-carnival/whack-a-mole/whack-audio.wav";
+audio.src = "../JinnyK015/blog_carnival/whack-a-mole/whack-audio.wav";
 
 
 putInTheMole();
