@@ -33,7 +33,7 @@ function getRandomInt(min, max) {
 
 function putInTheMole () {
   const mole = document.createElement('img');
-  mole.src= "../JinnyK015/blog_carnival/whack-a-mole/mole.png";
+  mole.src= "../JinnyK015/blog_carnival/whack-a-mole/mole.PNG";
   mole.id = "mole";
   mole.style.width = '75px';
   randomBox.appendChild(mole);
@@ -51,7 +51,7 @@ function whackedMole() {
 
 function printMoleCounter (){
   moleCounter++
-  document.getElementById('recordMole').innerHTML=`you got the
+  document.getElementById('recordMole').innerHTML=`you got
   ${moleCounter} moles!`;
   }
 
