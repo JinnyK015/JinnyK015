@@ -1,8 +1,3 @@
-let headIndex = 0;
-let bodyIndex = 0;
-let shoesIndex = 0;
-let currentChoice = 0;
-
 document.onkeydown = checkKey;
 
 
@@ -20,51 +15,42 @@ function checkKey(e) {
   }
 }
 
+let currentChoice = 0;
+
 const head = document.querySelector(".head");
 const body = document.querySelector(".body");
 const shoes = document.querySelector(".shoes");
 
+const imgIndexes =[0, 0, 0]
+const imgLinks = [head, body, shoes]
+const bodyPart = ['head','body','shoes']
+
 function arrowHorizen(index) {
-  headIndex += index;
-  bodyIndex += index;
-  shoesIndex += index;
+  let imgindex = imgIndexes[currentChoice];
+  let imgLink = imgLinks[currentChoice];
+  let partName = bodyPart[currentChoice];
 
-  if (currentChoice == 0) {
-    if (headIndex < 0) {
-      headIndex = 6;
-    }
+  imgindex += index;
 
-    if (headIndex > 6) {
-      headIndex = 0;
-    }
+    if (imgindex < 0) 
+      imgindex = 6;
+    
 
-    head.src = `../JinnyK015/blog_carnival/blog_carnival/dress-the-clown/images/head${headIndex}.png`;
-  } else if (currentChoice == 1) {
-    if (bodyIndex < 0) {
-      bodyIndex = 6;
-    }
+    if (imgindex > 6) 
+      imgindex = 0;
+    
 
-    if (bodyIndex > 6) {
-      bodyIndex = 0;
-    }
+    imgIndexes[currentChoice] = imgindex;
 
-    body.src = `../JinnyK015/blog_carnival/blog_carnival/dress-the-clown/images/body${bodyIndex}.png`;
-  } else if (currentChoice == 2) {
-    if (shoesIndex < 0) {
-      shoesIndex = 6;
-    }
+    imgLink.src = `../JinnyK015/blog_carnival/dress-the-clown/images/${partName}${imgindex}.png`;
 
-    if (shoesIndex > 6) {
-      shoesIndex = 0;
-    }
-
-    shoes.src = `../JinnyK015/blog_carnival/blog_carnival/dress-the-clown/images/shoes${shoesIndex}.png`;
-  }
 }
 
-const arrowHead = document.querySelector("#arrow_dress_head");
+const arrowhead = document.querySelector("#arrow_dress_head");
 const arrowbody = document.querySelector("#arrow_dress_body");
 const arrowfooter = document.querySelector("#arrow_dress_footer");
+
+const arrowLinks = [arrowhead, arrowbody, arrowfooter]
 
 function arrowVertical(index) {
   currentChoice += index;
@@ -76,18 +62,7 @@ function arrowVertical(index) {
   if (currentChoice > 2) {
     currentChoice = 0;
   }
-
-  if (currentChoice == 0) {
-    arrowHead.style.display = "block";
-    arrowbody.style.display = "none";
-    arrowfooter.style.display = "none";
-  } else if (currentChoice == 1) {
-    arrowHead.style.display = "none";
-    arrowbody.style.display = "block";
-    arrowfooter.style.display = "none";
-  } else {
-    arrowHead.style.display = "none";
-    arrowbody.style.display = "none";
-    arrowfooter.style.display = "block";
-  }
+  let arrowprint = arrowLinks[currentChoice];
+    arrowLinks.forEach( (el) => el.style.display ='none' )
+    arrowprint.style.display= 'block';
 }
