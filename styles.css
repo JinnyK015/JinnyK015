@@ -258,6 +258,17 @@ main {
   display: none;
 }
 
+
+
+/* divider */
+
+.blog__contents > #divider {
+  display: block;
+  width: 100%;
+  border-top: rgba(109, 89, 122, .5) dashed 2px;
+ 
+}
+
 /* ---------media qurey----------- */
 
 @media screen and (max-width: 1400px) {
