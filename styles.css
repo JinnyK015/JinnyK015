@@ -257,8 +257,70 @@ main {
 #no-mobile {
   display: none;
 }
+/* calculator */
 
+.calculator {
+  width : 350px;
+  padding: 5px;
+  border-radius: 10px;
+  background:linear-gradient(0deg, rgba(109, 89, 122, 1) 62%, rgba(53, 80, 112, 1) 100%);
+  color: white;
+}
 
+.calculate__display {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--color-lightshadow);
+  border-radius: 10px;
+  font-weight: var(--weight-bold);
+  padding: 5px;
+  overflow: hidden;
+}
+
+.display__history {
+  text-align: right;
+}
+
+.display__main {
+  font-size: var(--font-Xlrg);
+  text-align: right;
+  
+}
+
+.display__temp,
+.display__history {
+  opacity: 0.5;
+  font-size: var(--font-medium);
+  
+}
+
+.calculate__btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+}
+.equal {
+  grid-column: 3 / span 2;
+  grid-row: 5;
+}
+.button {
+  background-color:rgba(188, 143, 143, 0.3);
+  cursor: pointer;
+  text-align: center;
+  padding: 16px;
+  font-size: var(--font-lrg);
+  border-radius: 10px;
+}
+
+.calculate__btn .button:hover {
+  background-color:rgba(188, 143, 143, 0.5);
+  color: white;
+  transition: color 300ms ease-in-out;
+}
+.calculate__btn .button:active {
+  color: white;
+  background-color:rgba(218, 167, 167, 0.7);
+}
 
 /* divider */
 
@@ -266,7 +328,6 @@ main {
   display: block;
   width: 100%;
   border-top: rgba(109, 89, 122, .5) dashed 2px;
- 
 }
 
 /* ---------media qurey----------- */

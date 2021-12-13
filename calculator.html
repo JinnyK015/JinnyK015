@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jinny's Devlog</title>
     <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://kit.fontawesome.com/54b0b8045c.js"
-      crossorigin="anonymous"
-    ></script>
-  
+    <script src="https://kit.fontawesome.com/54b0b8045c.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <main>
@@ -20,9 +16,7 @@
           <img id="nav__img" src="img/pic_line.png" alt="profile_picture" />
           <h3 class="nav__head">Kia ora! Hello!</h3>
           <h5 class="nav__link">
-            <a href="https://jinnyk015.github.io/portfolio/" target="_blank"
-              ><i class="fas fa-link"></i>Portfolio</a
-            >
+            <a href="https://jinnyk015.github.io/portfolio/" target="_blank"><i class="fas fa-link"></i>Portfolio</a>
           </h5>
         </div>
 
@@ -40,9 +34,7 @@
           </li>
 
           <li class="nav__item">
-            <a href="../JinnyK015/blog/blog.html"
-              ><i class="fas fa-vial"></i>Devlog</a
-            >
+            <a href="../JinnyK015/blog/blog.html"><i class="fas fa-vial"></i>Devlog</a>
             <ul>
               <li>
                 <a href="../JinnyK015/blog/identity-values.html">Identity-values</a>
@@ -74,19 +66,13 @@
         </ul>
         <ul class="nav__sns">
           <li class="nav__sns--item">
-            <a target="_blank" href="https://github.com/JinnyK015"
-              ><i class="fab fa-github-square"></i
-            ></a>
+            <a target="_blank" href="https://github.com/JinnyK015"><i class="fab fa-github-square"></i></a>
           </li>
           <li class="nav__sns--item">
-            <a target="_blank" href="https://twitter.com/jinnyk015"
-              ><i class="fab fa-twitter-square"></i
-            ></a>
+            <a target="_blank" href="https://twitter.com/jinnyk015"><i class="fab fa-twitter-square"></i></a>
           </li>
           <li class="nav__sns--item">
-            <a target="_blank" href="mailto:vedaforest@gmail.com"
-              ><i class="fas fa-envelope-square"></i
-            ></a>
+            <a target="_blank" href="mailto:vedaforest@gmail.com"><i class="fas fa-envelope-square"></i></a>
           </li>
         </ul>
         <footer id="copyright">
@@ -97,56 +83,58 @@
       <!-- main screen -->
 
       <section id="gamescreen" class="section">
-  
-          <div class="game_nav">
-            <a href="games.html" class="game_link">minesweeper</a>
-            <a href="unicorn.html" class="game_link">unicorn</a>
-            <a href="mole.html" class="game_link">mole</a>
-            <a href="dress.html" class="game_link">dress</a>
-            <a href ="calculator.html" class="game_link">calculator</a>
-          </div>
+        <div class="game_nav">
+          <a href="games.html" class="game_link">minesweeper</a>
+          <a href="unicorn.html" class="game_link">unicorn</a>
+          <a href="mole.html" class="game_link">mole</a>
+          <a href="dress.html" class="game_link">dress</a>
+          <a href ="calculator.html" class="game_link">calculator</a>
+        </div>
+
+        <div id="calculator">
+          <h1> calculator</h1>
+
+         
+            <div class="calculator">
+              <div id="display" class="calculate__display">
+                <div class="display__history">0</div>
+                <div class="display__main">0</div>
+                <div class="display__temp">0</div>
+              </div>
+      
+              <div class="calculate__btn">
+                <div id="clear" class="button clearAll">C</div>
+                <div class="button clearScreen">CE</div>
+                <div class="button operation">%</div>
+                <div id="divide" class="button operation">/</div>
+                <div id="seven" class="button number">7</div>
+                <div id="eight" class="button number">8</div>
+                <div id="nine" class="button number">9</div>
+                <div id="multiply" class="button operation">*</div>
+                <div id="four" class="button number">4</div>
+                <div id="five" class="button number">5</div>
+                <div id="six" class="button number">6</div>
+                <div id="subtract" class="button operation">-</div>
+                <div id="one" class="button number">1</div>
+                <div id="two" class="button number">2</div>
+                <div id="three" class="button number">3</div>
+                <div id="add" class="button operation">+</div>
+                <div id="decimal" class="button dot number">.</div>
+                <div id="zero" class="button number">0</div>
+                <div id="equals" class="button operation equal">=</div>
+              </div>
+            </div>
 
 
-      <div id='game_minesweeper'>
-              <div id="message"></div>
-
-              <form id="setting">
-                <h1>Minesweeper </h1>
-                <label for="size-select">Choose level 😀</label>
-                <select name="level" id="level" class="level_select">
-                  <option value="0">Please select level</option>
-                  <option value="3">Easy (3 * 3)</option>
-                  <option value="4" selected>Fun (4 * 4)</option>
-                  <option value="6">Hard (6 * 6)</option>
-                </select>
-            
-                <input id="mineNum" type="number" min="1" max="6" placeholder="max6" value="2" />
-                <input id="start" type="button" value ="Boom!"></input>
-              </form>
-          
-                <button id="restart" class='nonedisplay'>Boom start again</button>
-            
-          
-              <div id="notes"></div>
-              <div class="board"></div>
-              <script src="../JinnyK015/blog_minesweeper/lib/lib.js"></script>
-              <script src="../JinnyK015/blog_minesweeper/minesweeper.js"></script>
-              <script src="../JinnyK015/blog_minesweeper/lib/tests.js"></script>
-      </div>
-
-
-
+          <script src="calculator.js"></script>
+        </div>
       </section>
-
-
     </main>
 
-    
     <div id="no-mobile">
       <span><i class="fas fa-cog fa-lg"></i></span>
       <span>Sorry! my blog couldn’t support to small screen 😥</span>
       <span>Plaese optimized for minimum 800px view </span>
     </div>
-
   </body>
 </html>
