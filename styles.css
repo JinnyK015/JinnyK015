@@ -471,15 +471,22 @@ input#menu__icon:checked ~ .nav__toggle-btn label span:nth-child(3) {
 }
 
 @media screen and (max-width: 550px)  {
-
+  :root {
+    --font-huge: 24px;
+    --font-Xlrg: 22px;
+    --font-lrg: 20px;
+    --font-medium: 18px;
+    }
+    
 .profile__main {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    margin-top:300px;
   }
 
   .profile__main > .profile__block {
-  width: 50%; 
+  width: 80%; 
 }
 
 .profile__main .profile__block:first-child{
@@ -500,5 +507,19 @@ text-align: center;
   position: relative;
   top: 0;
   left: 0;
+}
+
+.blog__section,
+.blog__title,
+.blog__question,
+.blog__answer {
+  margin:  0;
+  padding: 0;
+}
+.blog__question{
+  margin-top: 6px;
+}
+.blog__contents {
+  max-width: 90%;
 }
 }
