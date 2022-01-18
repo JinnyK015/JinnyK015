@@ -7,12 +7,14 @@
     <title>Jinny's Devlog</title>
     <script src="https://kit.fontawesome.com/54b0b8045c.js" crossorigin="anonymous"></script>
     <link href="../styles.css" rel="stylesheet" />
+    <script src="../index.js" defer></script>
   </head>
 
   <body>
     <main>
       <!-- navbar -->
       <nav id="navbar">
+        <input type="checkbox" id ="menu__icon">
         <div class="nav__log">
           <img id="nav__img" src="../img/pic_line.png" alt="profile_picture" />
           <h3 class="nav__head">Kia ora! Hello!</h3>
@@ -79,6 +81,16 @@
         <footer id="copyright">
           <span>2021 JinnyK - All rights reserved </span>
         </footer>
+        <div class="nav__toggle-btn">
+          <label for="menu__icon" class="menu__icon__bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <label for="menu__icon" class="background"></label>
+  
+  
       </nav>
 
       <section class="section blog__main">

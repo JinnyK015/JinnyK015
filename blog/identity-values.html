@@ -5,18 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jinny's Devlog</title>
-    <script
-      src="https://kit.fontawesome.com/54b0b8045c.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/54b0b8045c.js" crossorigin="anonymous"></script>
     <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <script src="../index.js" defer></script>
   </head>
 
   <body>
     <main>
       <!-- navbar -->
-      <!-- navbar -->
       <nav id="navbar">
+        <input type="checkbox" id="menu__icon" />
         <div class="nav__log">
           <img id="nav__img" src="../img/pic_line.png" alt="profile_picture" />
           <h3 class="nav__head">Kia ora! Hello!</h3>
@@ -37,7 +35,7 @@
           <li class="nav__item">
             <a href="../games.html"><i class="fas fa-gamepad"></i>Toy games</a>
           </li>
-          
+
           <li class="nav__item">
             <a href="blog.html"><i class="fas fa-vial"></i>Devlog</a>
             <ul>
@@ -82,6 +80,14 @@
         <footer id="copyright">
           <span>2021 JinnyK - All rights reserved </span>
         </footer>
+        <div class="nav__toggle-btn">
+          <label for="menu__icon" class="menu__icon__bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <label for="menu__icon" class="background"></label>
       </nav>
 
       <section class="section blog__main">
@@ -122,92 +128,69 @@
         </nav>
         <!-- blog screen -->
         <div class="blog__screen blog__screen__text">
-         
           <div class="blog__contents">
             <h1 class="blog__title">Identity & Values</h1>
             <div class="blog__section">
               <h2 class="blog__question">
-                Explain a situation where you have had an ethical decision to
-                make.<br />
-                Discuss how you weighed up the values involved in that decision,
-                the decision you made and the consequences of the action you
-                took.
+                Explain a situation where you have had an ethical decision to make.<br />
+                Discuss how you weighed up the values involved in that decision, the decision you made and the
+                consequences of the action you took.
               </h2>
               <p class="blog__answer">
-                When I was working in the café most staff were on temporary
-                visas. And that café didn’t give us contracts and did some
-                unfair things to us. I tried speaking to the boss, but he
-                wouldn’t listen. So, I gathered evidence from my coworkers and
-                took our complaints to the boss. Even though I ended up quitting
-                that café, they gave us contracts and changed some of the unfair
-                things.
+                When I was working in the café most staff were on temporary visas. And that café didn’t give us
+                contracts and did some unfair things to us. I tried speaking to the boss, but he wouldn’t listen. So, I
+                gathered evidence from my coworkers and took our complaints to the boss. Even though I ended up quitting
+                that café, they gave us contracts and changed some of the unfair things.
+              </p>
+            </div>
+
+            <div class="blog__section">
+              <h2 class="blog__question">Describe how your culture has influenced your values and identity.</h2>
+              <p class="blog__answer">
+                My country has an extremely competitive environment and it started in childhood. If I wanted to survive
+                and keep my condition or get a better position I had to work hard and be sensitive about what is unfair
+                or fair. So, I grew up in that environment, I really love it when everyone, including me is hardworking
+                and I think finishing work is so important, even if it is not perfect.
               </p>
             </div>
 
             <div class="blog__section">
               <h2 class="blog__question">
-                Describe how your culture has influenced your values and
-                identity.
+                Evaluate your strengths and limitations in terms of your learning and career development
               </h2>
               <p class="blog__answer">
-                My country has an extremely competitive environment and it
-                started in childhood. If I wanted to survive and keep my
-                condition or get a better position I had to work hard and be
-                sensitive about what is unfair or fair. So, I grew up in that
-                environment, I really love it when everyone, including me is
-                hardworking and I think finishing work is so important, even if
-                it is not perfect.
+                My strengths are honesty about my situation, I enjoy learning new things and I like clear communication.
+                Limitations are I have quite high standards. If I feel I’m quite bad at something sometimes I can become
+                quite negative towards myself. If my team member didn’t work hard and was unprofessional at the work
+                place I would not happy with that too.
               </p>
             </div>
 
             <div class="blog__section">
               <h2 class="blog__question">
-                Evaluate your strengths and limitations in terms of your
-                learning and career development
+                Identify which of your strengths might help you in your learning journey and how they might intersect
+                with learning obstacles.
               </h2>
               <p class="blog__answer">
-                My strengths are honesty about my situation, I enjoy learning
-                new things and I like clear communication. Limitations are I
-                have quite high standards. If I feel I’m quite bad at something
-                sometimes I can become quite negative towards myself. If my team
-                member didn’t work hard and was unprofessional at the work place
-                I would not happy with that too.
-              </p>
-            </div>
-
-            <div class="blog__section">
-              <h2 class="blog__question">
-                Identify which of your strengths might help you in your learning
-                journey and how they might intersect with learning obstacles.
-              </h2>
-              <p class="blog__answer">
-                A strength would be my resilience. I will keep going with my
-                studying, even if it is hard and I don’t give up easily. Also,
-                learning something new feeling makes me happy. An obstacle for
-                me is if I felt stuck for too long, I might want to give up. So,
-                I want to go to offline classes, because even if I stuck and
-                want to give up if someone else has similar experience to me it
-                helps me feel better.
+                A strength would be my resilience. I will keep going with my studying, even if it is hard and I don’t
+                give up easily. Also, learning something new feeling makes me happy. An obstacle for me is if I felt
+                stuck for too long, I might want to give up. So, I want to go to offline classes, because even if I
+                stuck and want to give up if someone else has similar experience to me it helps me feel better.
               </p>
             </div>
             <div class="blog__section">
               <h2 class="blog__question">
-                Share an example from your experience of where you were trying
-                to work productively with others, but there was resistance or
-                tension. Discuss the strategies you used at that time, how
-                effective they were, and your reflections on what other
-                strategies you would try now, and why.
+                Share an example from your experience of where you were trying to work productively with others, but
+                there was resistance or tension. Discuss the strategies you used at that time, how effective they were,
+                and your reflections on what other strategies you would try now, and why.
               </h2>
               <p class="blog__answer">
-                In my previous job as a supply chain manager my factory team and
-                sales team often argued with each other. So, I had to understand
-                everyone’s goals and I listened to everyone’s needs and their
-                situation. After that I would negotiate with them and try to get
-                them to compromise. It wasn’t always successful, but at least
-                they knew negotiating was better than losing out completely. I
-                will always try to negotiate first, but in the end, I would have
-                to consider who has seniority in the relationship (For example
-                the client)
+                In my previous job as a supply chain manager my factory team and sales team often argued with each
+                other. So, I had to understand everyone’s goals and I listened to everyone’s needs and their situation.
+                After that I would negotiate with them and try to get them to compromise. It wasn’t always successful,
+                but at least they knew negotiating was better than losing out completely. I will always try to negotiate
+                first, but in the end, I would have to consider who has seniority in the relationship (For example the
+                client)
               </p>
             </div>
           </div>
@@ -220,6 +203,5 @@
       <span>Sorry! my blog couldn’t support to small screen 😥</span>
       <span>Plaese optimized for minimum 800px view </span>
     </div>
-    
   </body>
 </html>
