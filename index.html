@@ -6,22 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jinny's Devlog</title>
     <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://kit.fontawesome.com/54b0b8045c.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/54b0b8045c.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <main>
       <!-- nav bar -->
+      <input type="checkbox" id="menu__icon" />
       <nav id="navbar">
         <div class="nav__log">
           <img id="nav__img" src="img/pic_line.png" alt="profile_picture" />
           <h3 class="nav__head">Kia ora! Hello!</h3>
           <h5 class="nav__link">
-            <a href="https://jinnyk015.github.io/portfolio/" target="_blank"
-              ><i class="fas fa-link"></i>Portfolio</a
-            >
+            <a href="https://jinnyk015.github.io/portfolio/" target="_blank"><i class="fas fa-link"></i>Portfolio</a>
           </h5>
         </div>
 
@@ -39,9 +36,7 @@
           </li>
 
           <li class="nav__item">
-            <a href="../JinnyK015/blog/blog.html"
-              ><i class="fas fa-vial"></i>Devlog</a
-            >
+            <a href="../JinnyK015/blog/blog.html"><i class="fas fa-vial"></i>Devlog</a>
             <ul>
               <li>
                 <a href="../JinnyK015/blog/identity-values.html">Identity-values</a>
@@ -72,26 +67,28 @@
         </ul>
         <ul class="nav__sns">
           <li class="nav__sns--item">
-            <a target="_blank" href="https://github.com/JinnyK015"
-              ><i class="fab fa-github-square"></i
-            ></a>
+            <a target="_blank" href="https://github.com/JinnyK015"><i class="fab fa-github-square"></i></a>
           </li>
           <li class="nav__sns--item">
-            <a target="_blank" href="https://twitter.com/jinnyk015"
-              ><i class="fab fa-twitter-square"></i
-            ></a>
+            <a target="_blank" href="https://twitter.com/jinnyk015"><i class="fab fa-twitter-square"></i></a>
           </li>
           <li class="nav__sns--item">
-            <a target="_blank" href="mailto:vedaforest@gmail.com"
-              ><i class="fas fa-envelope-square"></i
-            ></a>
+            <a target="_blank" href="mailto:vedaforest@gmail.com"><i class="fas fa-envelope-square"></i></a>
           </li>
         </ul>
         <footer id="copyright">
           <span>2021 JinnyK - All rights reserved </span>
         </footer>
+        <div class="nav__toggle-btn">
+          <label for="menu__icon" class="menu__icon__bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <label for="menu__icon" class="background"></label>
       </nav>
-
+      <!-- toggle bar -->
       <!-- main screen -->
       <section id="mainscreen" class="section">
         <div class="home__img">
@@ -101,12 +98,10 @@
       </section>
     </main>
 
-    
     <div id="no-mobile">
       <span><i class="fas fa-cog fa-lg"></i></span>
       <span>Sorry! my blog couldn’t support to small screen 😥</span>
       <span>Plaese optimized for minimum 800px view </span>
     </div>
-
   </body>
 </html>

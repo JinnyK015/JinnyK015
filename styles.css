@@ -164,6 +164,9 @@ main {
   text-align: center;
 }
 
+
+
+
 /* main screen */
 .section {
   width: 100vw;
@@ -178,6 +181,10 @@ main {
 }
 .home__img img {
   max-width: 500px;
+}
+
+.home__greet {
+  font-size: var(--font-lrg);
 }
 
 /* profile */
@@ -340,8 +347,136 @@ main {
   }
 }
 
-@media screen and (max-width: 800px) {
-  #no-mobile {
+@media screen and (max-width: 768px) {
+  :root {
+    --font-huge: 24px;
+    --font-Xlrg: 20px;
+    --font-lrg: 14px;
+  }
+
+  #navbar {
+    z-index: 5;
+    position: fixed;
+    background-color: var(--color-navy);
+    background: linear-gradient(270deg, rgba(109, 89, 122, 1) 62%, rgba(53, 80, 112, 1) 100%);
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 65px;
+    color: var(--color-white);
+  }
+
+  #navbar .nav__log,
+  #navbar .nav__sns,
+  #copyright {
+    display:none;
+  }
+
+  .nav__menu {
+ 
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    display: none;
+    background: linear-gradient(180deg, rgba(109, 89, 122, 1) 62%, rgba(53, 80, 112, 1) 100%);
+  }
+  .nav__menu.open {
+    display: block;
+    transition: all 300ms ease-in-out;
+  }
+  .nav__item ul > li {
+    margin: 0;
+  }
+
+  .section {
+    position: absolute;
+    top:100px;
+    margin-left: 0;
+  }
+
+ /* ready to drop down menu */
+  .home__img {
+    text-align: center;
+  }
+  .home__img img {
+    max-width: 70%;
+  }
+  
+.nav__toggle-btn {
+  display: block;
+  position: absolute;
+  right: 1.3rem;
+  top: 1.3rem;
+}
+
+.menu__icon__bar {
+  display: block;
+  width: 1.75rem;
+  height: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu__icon__bar span {
+  position: absolute;
+  width: 100%;
+  height: 0.25rem;
+  border-radius: 0.6rem;
+  background-color: var(--color-white);
+  transition: all 0.35s;
+}
+
+.nav__toggle-btn label.menu__icon__bar span:nth-child(1) {
+  top: 0;
+}
+.nav__toggle-btn label.menu__icon__bar span:nth-child(2) {
+  top: 50%;
+  transform: translateY(
+    -50%
+  ); /* 중간값으로 정렬하기위해서 시작점이 상단으로 기본세팅된것을 억지로 내려주기위함. */
+}
+.nav__toggle-btn label.menu__icon__bar span:nth-child(3) {
+  bottom: 0;
+}
+/* animation for checked transition */
+
+input#menu__icon:checked ~ .nav__toggle-btn label span:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+input#menu__icon:checked ~ .nav__toggle-btn label span:nth-child(2) {
+  opacity: 0;
+}
+input#menu__icon:checked ~ .nav__toggle-btn label span:nth-child(3) {
+  bottom: 50%;
+  transform: translateY(50%) rotate(45deg);
+}
+
+input[id="menu__icon"] {
+  display: none;
+}
+
+/* click outside menu and click off */
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.35s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 4;
+}
+
+input#menu__icon:checked ~ .background {
+  opacity: 1;
+  visibility: visible;
+} 
+
+  /* #no-mobile {
     position: fixed;
     z-index: 99;
     height: 100vh;
@@ -375,5 +510,11 @@ main {
     to {
       transform: rotateZ(360deg);
     }
-  }
+  } */
+}
+
+
+@media screen and (max-width: 320px) {
+
+
 }

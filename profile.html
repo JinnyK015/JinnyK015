@@ -10,10 +10,12 @@
       src="https://kit.fontawesome.com/54b0b8045c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <main>
       <!-- nav bar -->
+      <input type="checkbox" id ="menu__icon">
       <nav id="navbar">
         <div class="nav__log">
           <img id="nav__img" src="img/pic_line.png" alt="profile_picture" />
@@ -91,7 +93,17 @@
         <footer id="copyright">
           <span>2021 JinnyK - All rights reserved </span>
         </footer>
+        <!-- toggle bar -->
+        <div class="nav__toggle-btn">
+          <label for="menu__icon" class="menu__icon__bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <label for="menu__icon" class="background"></label>
       </nav>
+
 
       <!-- main screen -->
       <div id="profile__screen" class="section">
