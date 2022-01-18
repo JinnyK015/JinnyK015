@@ -353,9 +353,11 @@ input[id="menu__icon"] {
 @media screen and (max-width: 768px) {
   :root {
     --font-huge: 24px;
-    --font-Xlrg: 20px;
-    --font-lrg: 14px;
-  }
+    --font-Xlrg: 22px;
+    --font-lrg: 20px;
+    --font-medium: 18px;
+  
+    }
 
   #navbar {
     z-index: 5;
@@ -385,7 +387,6 @@ input[id="menu__icon"] {
   }
 
   .nav__menu {
- 
     flex-direction: column;
     text-align: center;
     width: 100%;
@@ -463,49 +464,41 @@ input#menu__icon:checked ~ .nav__toggle-btn label span:nth-child(3) {
   bottom: 50%;
   transform: translateY(50%) rotate(45deg);
 }
-
-
-
-
-  /* #no-mobile {
-    position: fixed;
-    z-index: 99;
-    height: 100vh;
-    width: 100vw;
-    background-color: var(--color-navy);
-    background: linear-gradient(0deg, rgba(109, 89, 122, 1) 62%, rgba(53, 80, 112, 1) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    top: 0;
-    overflow: hidden;
-  }
-
-  #no-mobile > span {
-    font-weight: var(--weight-bold);
-    font-size: var(--font-small);
-    color: var(--color-white);
-    margin: 0 14%;
-  }
-  #no-mobile > span > .fas {
-    margin-bottom: 20px;
-    animation: spincogAni 5s ease-in-out infinite;
-  }
-
-  @keyframes spincogAni {
-    from {
-      transform: none;
-    }
-    to {
-      transform: rotateZ(360deg);
-    }
-  } */
+.game_nav {
+ top: 70px;
+ text-align: center;
+}
 }
 
+@media screen and (max-width: 550px)  {
 
-@media screen and (max-width: 320px) {
+.profile__main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
+  .profile__main > .profile__block {
+  width: 50%; 
+}
 
+.profile__main .profile__block:first-child{
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.profile__main .profile__block:last-child{
+text-align: center;
+}
+
+.game_dress .dress-a-parent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 612px;
+  background-color: antiquewhite;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 }
