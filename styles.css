@@ -13,11 +13,11 @@
   /* outline: none; */
 }
 :root {
-  --color-navy: #355070;
+  --color-navy: rgb(53, 80, 112);
   --color-lightyellow: #eaac8b;
-  --color-red: #e56b6f;
+  --color-red: rgb(229, 107, 111);
   --color-dryrose: rgb(181, 101, 118);
-  --color-purple: #6d597a;
+  --color-purple: rgb(108, 88, 121);
   --color-white: #fff;
   --color-darkgrey: #2b2b2b;
   --color-lightshadow: rgba(255, 255, 255, 0.3);
@@ -338,6 +338,15 @@ input[id="menu__icon"] {
   border-top: rgba(109, 89, 122, 0.5) dashed 2px;
 }
 
+
+
+.blog__answer {
+  display: none;
+}
+
+
+
+
 /* ---------media qurey----------- */
 
 @media screen and (max-width: 1400px) {
@@ -347,6 +356,9 @@ input[id="menu__icon"] {
 
   .blog__screen {
     margin-top: 0;
+  }
+  #navbar {
+    background: linear-gradient(0deg,   rgb(181, 101, 118) 40%, rgba(109, 89, 122, 1)  100%);
   }
 }
 
@@ -363,7 +375,7 @@ input[id="menu__icon"] {
     z-index: 5;
     position: fixed;
     background-color: var(--color-navy);
-    background: linear-gradient(270deg, rgba(109, 89, 122, 1) 62%, rgba(53, 80, 112, 1) 100%);
+    background: linear-gradient(270deg,  rgb(181, 101, 118) 20%, rgba(109, 89, 122, 1) 60%,rgb(53, 80, 112) 100%);
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
@@ -371,7 +383,7 @@ input[id="menu__icon"] {
     color: var(--color-white);
   }
 
-  #navbar .nav__log > img{
+  #navbar .nav__log a > img{
     position: absolute;
     top:6px;
     left: 10px;
