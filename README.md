@@ -1,7 +1,7 @@
 # Hello I'm Jinny K
 
 **I'm intrested in front-end Developement.<br>
-I'm trying to concentrate to Vanilla JS.<br>
+I'm trying to get used to React and back-end basics.<br>
 I'm looking for opportunities as a front end developor.**<br>
 
 ---
