@@ -7,9 +7,10 @@ I'm looking for opportunities as a front end developor.**<br>
 ---
 
 ## what I want to learn and am interested in? 
-- Finshed the DevAcademy foundation sprint -- 100% <br>
-- Youtube clone coding (learn NodeJS, ES6, Express, Babel) -- 15%<br>
-- React Basic concept -- 17%
+- the DevAcademy Bootcamp -- 30% <br>
+- Youtube clone coding (learn NodeJS, ES6, Express, Babel) -- 20%<br>
+- Youtube clone coding (get used to React, React hooks, PostCSS) --5%<br>
+- React Basic concept -- 40%
 
 ---
 
