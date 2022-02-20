@@ -7,10 +7,12 @@ I'm looking for opportunities as a front end developor.**<br>
 ---
 
 ## what I want to learn and am interested in? 
-- the DevAcademy Bootcamp -- 30% <br>
+- the DevAcademy Bootcamp -- 80% <br>
+- Toyproject (react hook: rebuild vanilaJs App to React App) =>understand reactHook, Dom 20%
+
 - Youtube clone coding (learn NodeJS, ES6, Express, Babel) -- 20%<br>
 - Youtube clone coding (get used to React, React hooks, PostCSS) --5%<br>
-- React Basic concept -- 40%
+- React Basic concept -- 50%
 
 ---
 
