@@ -25,4 +25,3 @@ I'm looking for opportunities as a front end developor.**<br>
 <a href="https://vedaforest@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-red?style=flat-square&logo=Gmail&logoColor=white&link=https://vedaforest@gmail.com"></a>
 <a href="https://jinnyk015.github.io/JinnyK015/" target="_blank"><img src="https://img.shields.io/badge/Study Blog-FF9D00?style=flat-square&logo=Medium&logoColor=white&link=https://jinnyk015.github.io/JinnyK015/"></a>
 </div>
-- the DevAcademy Bootcamp -- 100% <br>
