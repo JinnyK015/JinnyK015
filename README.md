@@ -1,8 +1,7 @@
 # Hello I'm Jinny K
 
-**I'm intrested in front-end Developement.<br>
-I'm trying to get used to React and back-end basics.<br>
-I'm looking for opportunities as a front end developor.**<br>
+**I'm a full-stack developer, but I'm currently more intrested in improving my front-end skills <br>
+I'm looking for opportunities as a junior developer.**<br>
 
 ---
 
@@ -19,11 +18,12 @@ I'm looking for opportunities as a front end developor.**<br>
 <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=CSS3&logoColor=white">
 <img src="https://img.shields.io/badge/HTML5-red?style=for-the-badge&logo=HTML5&logoColor=white">
 <img src="https://img.shields.io/badge/React-blue?style=for-the-badge&color=blue&logo=React&logoColor=white">
-<img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&color=764ABC&logo=React&logoColor=white">
+<img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&color=764ABC&logo=Redux&logoColor=white">
 <img src="https://img.shields.io/badge/Node.Js-339933?style=for-the-badge&color=339933&logo=Node.Js&logoColor=white">
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&color=003B57&logo=SQLite&logoColor=white">
 <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&color=C21325&logo=Jest&logoColor=white">
 <img src="https://img.shields.io/badge/Auth0-EB5424?style=for-the-badge&color=EB5424&logo=Auth0&logoColor=white">
+<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&color=CC6699&logo=Sass&logoColor=white">
 <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&color=430098&logo=Heroku&logoColor=white">
 </div>
 
