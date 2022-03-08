@@ -1,7 +1,7 @@
 # Hello I'm Jinny K
 
 **I'm a full-stack developer, but I'm currently more intrested in improving my front-end skills <br>
-I'm looking for opportunities as a junior developer.**<br>
+I'm looking for opportunities as a front-end developer.**<br>
 
 ---
 
