@@ -6,11 +6,10 @@ I'm looking for opportunities as a front-end developer.**<br>
 ---
 
 ## what I want to learn and am interested in? 
-- Toyproject (react hook: rebuild vanilaJs App to React App) =>understand reactHook, Dom 20%
 - Youtube clone coding (learn NodeJS, ES6, Express, Babel) -- 20%<br>
 - Youtube clone coding (get used to React, React hooks, PostCSS) --5%<br>
-- React Basic concept(include class) -- 70%
-
+- React Basic concept(include class, understanding Object-Oriented programming) -- 80%
+- TypeScript Basic --ready
 ---
 
 <div>
