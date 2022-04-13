@@ -7,8 +7,8 @@ I'm looking for opportunities as a front-end developer.**<br>
 
 ## what I want to learn and am interested in? 
 - Youtube clone coding (get used to React, React hooks, PostCSS) --50%<br>
-- TypeScript Basic --20%
-- NEXTjs Basic --10%
+- TypeScript Basic --35%
+- NEXTjs Basic --80%
 ---
 
 <div>
