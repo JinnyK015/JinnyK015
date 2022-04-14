@@ -8,14 +8,14 @@ I'm looking for opportunities as a front-end developer.**<br>
 ## what I want to learn and am interested in? 
 - Youtube clone coding (get used to React, React hooks, PostCSS) --50%<br>
 - TypeScript Basic --35%
-- NEXTjs Basic --80%
 ---
 
 <div>
 <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=JavaScript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-blue?style=for-the-badge&color=blue&logo=React&logoColor=white">
 <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=CSS3&logoColor=white">
 <img src="https://img.shields.io/badge/HTML5-red?style=for-the-badge&logo=HTML5&logoColor=white">
-<img src="https://img.shields.io/badge/React-blue?style=for-the-badge&color=blue&logo=React&logoColor=white">
+<img src="https://img.shields.io/badge/Next.Js-black?style=for-the-badge&color=black&logo=Next.Js&logoColor=white">
 <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&color=764ABC&logo=Redux&logoColor=white">
 <img src="https://img.shields.io/badge/Node.Js-339933?style=for-the-badge&color=339933&logo=Node.Js&logoColor=white">
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&color=003B57&logo=SQLite&logoColor=white">
