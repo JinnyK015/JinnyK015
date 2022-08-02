@@ -1,13 +1,14 @@
 # Hello I'm Jinny K
 
-**I'm a full-stack developer, but I'm currently more intrested in improving my front-end skills <br>
-I'm looking for opportunities as a front-end developer.**<br>
+**I'm currently working as a QA engineer, but I would like to improve my front-end tech skills <br>
+So, I'm looking for opportunities as a front-end developer.**<br>
 
 ---
 
 ## what I want to learn and am interested in? 
-- Youtube clone coding (get used to React, React hooks, PostCSS) --50%<br>
-- TypeScript Basic --35%
+- I want to more learn about OOP
+- I want to improve TypeScript and React native
+- I'm courious about Svelte && TypeScript and want to renew my portfoilo 
 ---
 
 <div>
