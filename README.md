@@ -12,8 +12,9 @@ So, I'm looking for opportunities as a front-end developer.**<br>
 ---
 
 <div>
+<img src="https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=TypeScript&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=JavaScript&logoColor=white">
-  <img src="https://img.shields.io/badge/React-blue?style=for-the-badge&color=blue&logo=React&logoColor=white">
+<img src="https://img.shields.io/badge/React-blue?style=for-the-badge&color=blue&logo=React&logoColor=white">
 <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=CSS3&logoColor=white">
 <img src="https://img.shields.io/badge/HTML5-red?style=for-the-badge&logo=HTML5&logoColor=white">
 <img src="https://img.shields.io/badge/Next.Js-black?style=for-the-badge&color=black&logo=Next.Js&logoColor=white">
