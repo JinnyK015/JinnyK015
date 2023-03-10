@@ -1,14 +1,14 @@
 # Hello I'm Jinny K
 
-**I'm currently working as a QA engineer, but I would like to improve my front-end tech skills <br>
-So, I'm looking for opportunities as a front-end developer.**<br>
+I'm working as a junior software engineer <br>
+I'm enjoying digging bugs and investgating the problems <br>
+I'm currently using Typescript with Nextjs, React, React Native, Java8, Goolge Cloud BigQuery<br>
 
 ---
 
 ## what I want to learn and am interested in? 
-- I want to more learn about OOP
-- I want to improve TypeScript and React native
-- I'm courious about Svelte && TypeScript and want to renew my portfoilo 
+- Getting use to Java8
+- looking for toy project with Java & typescript
 ---
 
 <div>
@@ -24,7 +24,7 @@ So, I'm looking for opportunities as a front-end developer.**<br>
 <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&color=C21325&logo=Jest&logoColor=white">
 <img src="https://img.shields.io/badge/Auth0-EB5424?style=for-the-badge&color=EB5424&logo=Auth0&logoColor=white">
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&color=CC6699&logo=Sass&logoColor=white">
-<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&color=430098&logo=Heroku&logoColor=white">
+
 </div>
 
 <div>
